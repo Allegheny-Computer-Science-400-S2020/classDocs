@@ -2,8 +2,7 @@
 #include <stdio.h>
 #define NUM_THREADS     5
 //Compile on Linux: g++ -pthread helloWorldThread.c
-//          or try: gcc helloWorldthread.c -pthread
-//Compile on MacOS: gcc -o helloWorldthread helloWorldthread.c
+// compile: gcc helloThreads.c -pthread
 
 
  void *PrintHello(void *threadid)
