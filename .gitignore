@@ -138,3 +138,6 @@ tags
 .DS_Store
 
 *~
+# Libre Office #
+# ####################
+ *.odp#
